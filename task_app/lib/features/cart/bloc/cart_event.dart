@@ -1,7 +1,7 @@
 
 import 'package:equatable/equatable.dart';
 
-import '../home/models/product_model.dart';
+import '../../home/models/product_model.dart';
 
 
 abstract class CartEvent extends Equatable {

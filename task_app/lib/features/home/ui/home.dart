@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task_app/features/cart/cart_event.dart';
-import 'package:task_app/features/cart/cart_state.dart';
+import 'package:task_app/features/cart/bloc/cart_event.dart';
+import 'package:task_app/features/cart/bloc/cart_state.dart';
 import 'package:task_app/features/home/bloc/home_bloc.dart';
 import 'package:task_app/features/home/bloc/home_event.dart';
 import 'package:task_app/features/home/bloc/home_state.dart';
@@ -11,7 +11,7 @@ import 'package:task_app/features/home/ui/product_tile.dart';
 import 'package:task_app/features/summary/ui/summary.dart';
 
 import '../../../utilities/utils.dart';
-import '../../cart/cart_bloc.dart';
+import '../../cart/bloc/cart_bloc.dart';
 import '../models/product_model.dart';
 
 class Home extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../home/models/product_model.dart';
+import '../../home/models/product_model.dart';
 
 @immutable
 class CartState {

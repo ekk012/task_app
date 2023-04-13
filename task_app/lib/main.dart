@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task_app/features/cart/cart_bloc.dart';
+import 'package:task_app/features/cart/bloc/cart_bloc.dart';
 import 'package:task_app/features/home/ui/home.dart';
 
 import 'features/summary/ui/summary.dart';

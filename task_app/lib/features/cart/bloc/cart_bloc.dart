@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:task_app/data/cart_items.dart';
-import 'package:task_app/features/cart/cart_event.dart';
-import 'package:task_app/features/cart/cart_state.dart';
+import 'package:task_app/features/cart/bloc/cart_event.dart';
+import 'package:task_app/features/cart/bloc/cart_state.dart';
 
 
 
 
 
-import '../home/models/product_model.dart';
+import '../../home/models/product_model.dart';
 
 class CartBloc extends Bloc<CartEvent, CartState> {
   CartBloc() : super(CartInitial(cartItems: {})) {
